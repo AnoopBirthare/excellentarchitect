@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-const Header =()=>{
+const CarouselComp =()=>{
     return(
 
             <Carousel fade="true" variant="dark">
@@ -41,4 +41,4 @@ const Header =()=>{
 </Carousel>
     )
 }
-export default Header;
+export default CarouselComp;

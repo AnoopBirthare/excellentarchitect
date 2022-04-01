@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import CarouselComp from './components/Carousle';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <CarouselComp/>
     </div>
   );
 }
