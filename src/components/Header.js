@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/exelogo.png"
+import Logo from "../assets/logo123.PNG"
 import {Navbar, Nav,Container, NavDropdown} from 'react-bootstrap';
 
 const Header =()=>{
@@ -7,12 +7,11 @@ const Header =()=>{
     return(
         <Navbar  collapseOnSelect expand="lg" bg="transparent" variant="dark">
   <Container>
-  <img
-     style={{flex: 1,
-      resizeMode: 'contain'}}
+  {/* <img
+     style={{height:75,width:200,marginRight:-125}}
       src={Logo}
-    />
-  <Navbar.Brand href="#home">Excellent Architect</Navbar.Brand>
+    /> */}
+  <Navbar.Brand style={{}}href="#home">Excellent Designs</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto" style={{justifyContent:"center",alignItems:"center"}}>
