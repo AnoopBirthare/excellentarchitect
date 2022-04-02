@@ -1,7 +1,7 @@
 import './App.css';
 import CarouselComp from './components/Carousle';
 import Header from './components/Header';
-
+import Footer from './components/Footer'
 
 function App() {
   console.log("window-->",window.innerWidth)
@@ -12,10 +12,9 @@ function App() {
       </div>
       <div style={{}}>
       <CarouselComp/>
+      <Footer/>
       </div>
-
-
-    </div>
+      </div>
   );
 }
 
