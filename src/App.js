@@ -12,7 +12,7 @@ function App() {
       </div>
       <div style={{}}>
       <CarouselComp/>
-      <Footer/>
+      <Footer/> 
       </div>
       </div>
   );
