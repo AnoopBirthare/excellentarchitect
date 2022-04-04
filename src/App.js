@@ -1,7 +1,9 @@
 import './App.css';
 import CarouselComp from './components/Carousle';
 import Header from './components/Header';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import DetailsCards from "./components/DetailsCards";
+import TeamCards from "./components/TeamCards";
 
 function App() {
   console.log("window-->",window.innerWidth)
@@ -13,6 +15,8 @@ function App() {
       <div style={{}}>
       <CarouselComp/>
       <Footer/> 
+      <TeamCards />
+      <Footer />
       </div>
       </div>
   );
