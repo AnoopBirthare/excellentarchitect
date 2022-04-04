@@ -14,7 +14,7 @@ function App() {
       </div>
       <div style={{}}>
       <CarouselComp/>
-      <Footer/> 
+      <DetailsCards/> 
       <TeamCards />
       <Footer />
       </div>
