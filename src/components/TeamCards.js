@@ -2,7 +2,7 @@ import React from "react";
 import "./TeamCards.css";
 import "./Footer.css";
 
-const TeamCards = () => {
+const TeamCards = (props) => {
   const TeamMembers = [
     {
       image:
@@ -30,7 +30,7 @@ const TeamCards = () => {
     },
   ];
   return (
-    <>
+    <div id="teams">
       <section class="speakers-section-three">
         <div class="container">
           <div class="sec-title text-center">
@@ -86,7 +86,7 @@ const TeamCards = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
