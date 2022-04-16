@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <>
+    <div id="footer">
       <footer class="footer-section">
         <div class="container">
           <div class="footer-cta pt-5 pb-5">
@@ -98,29 +98,31 @@ const Footer = () => {
                     <h3>Useful Links</h3>
                   </div>
                   <ul>
-                    <li>
-                      <a href="#">Home</a>
+                    <li onClick={() => props.handleRef("header")}>
+                      <p>Home</p>
                     </li>
                     {/* <li><a href="#">about</a></li> */}
                     {/* <li><a href="#">services</a></li> */}
-                    <li>
-                      <a href="#">portfolio</a>
+                    <li onClick={() => props.handleRef("carousel")}>
+                      <p>portfolio</p>
                     </li>
                     {/* <li><a href="#">Contact</a></li> */}
-                    <li>
-                      <a href="#">About us</a>
+                    <li onClick={() => props.handleRef("teams")}>
+                      <p>About us</p>
+                    </li>
+                    <li onClick={() => props.handleRef("details")}>
+                      <p>Our Services</p>
                     </li>
                     <li>
-                      <a href="#">Our Services</a>
+                      <p onClick={() => props.handleRef("teams")}>
+                        Expert Team
+                      </p>
                     </li>
                     <li>
-                      <a href="#">Expert Team</a>
+                      <p>Contact us</p>
                     </li>
                     <li>
-                      <a href="#">Contact us</a>
-                    </li>
-                    <li>
-                      <a href="#">Latest News</a>
+                      <p>Latest News</p>
                     </li>
                   </ul>
                 </div>
@@ -182,7 +184,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
