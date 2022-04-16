@@ -74,7 +74,7 @@ img {
     display: inline-block;
     font-size: 48px;
     line-height: 1.2em;
-    color: #1e1f36;
+    color: #e6e6e9;
     font-weight: 700
 }
 
@@ -82,8 +82,8 @@ img {
     position: relative;
     font-size: 16px;
     line-height: 28px;
-    color: #888;
-    margin-top: 30px
+    color: rgb(241, 238, 238);
+    margin-top: 10px
 }
 
 .sec-title.light h2,
@@ -94,7 +94,7 @@ img {
 
 .speakers-section-three {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 30px 0 90px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -289,5 +289,5 @@ img {
 
 .speaker-block-three .social-links li a:hover i {
     color: #fff;
-    background: #ec7561
+    background: transparent;
 }
