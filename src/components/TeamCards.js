@@ -5,22 +5,26 @@ import "./Footer.css";
 const TeamCards = () => {
   const TeamMembers = [
     {
-      image: "https://i.ibb.co/8x9xK4H/team.jpg",
+      image:
+        "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
       name: "Parth",
       designation: "Team Manager",
     },
     {
-      image: "https://i.ibb.co/8x9xK4H/team.jpg",
+      image:
+        "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
       name: "Aditya",
       designation: "Associate",
     },
     {
-      image: "https://i.ibb.co/8x9xK4H/team.jpg",
+      image:
+        "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
       name: "Parth",
       designation: "Team Leader",
     },
     {
-      image: "https://i.ibb.co/8x9xK4H/team.jpg",
+      image:
+        "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
       name: "Parth",
       designation: "Team Leader",
     },
@@ -30,7 +34,7 @@ const TeamCards = () => {
       <section class="speakers-section-three">
         <div class="container">
           <div class="sec-title text-center">
-            <span class="title">Team</span>
+            {/* <span class="title">Team</span> */}
             <h2>Our Team</h2>
           </div>
           <div class="row">
