@@ -6,11 +6,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import DetailsCards from "./components/DetailsCards";
 import TeamCards from "./components/TeamCards";
+import ElevationDesigns from "./components/ElevationDesigns";
 
 const App = () => {
   const handleRef = (toscroll) => {
     const headerRef = document.getElementById("header");
     const carouselRef = document.getElementById("carousel");
+    const designsRef = document.getElementById("designs");
     const detailsRef = document.getElementById("details");
     const teamsRef = document.getElementById("teams");
     const footerRef = document.getElementById("footer");
@@ -18,6 +20,7 @@ const App = () => {
     console.log(headerRef);
     if (toscroll == "header") headerRef.scrollIntoView({ behavior: "smooth" });
     if (toscroll == "carousel") carouselRef.scrollIntoView();
+    if (toscroll == "designs") designsRef.scrollIntoView();
     if (toscroll == "details") detailsRef.scrollIntoView();
     if (toscroll == "teams") teamsRef.scrollIntoView();
     if (toscroll == "footer") footerRef.scrollIntoView();
@@ -39,6 +42,7 @@ const App = () => {
       <div style={{}}>
         <CarouselComp />
         <DetailsCards />
+        <ElevationDesigns />
         <TeamCards />
         <Footer handleRef={handleRef} />
       </div>

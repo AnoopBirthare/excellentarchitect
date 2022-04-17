@@ -98,12 +98,12 @@ const Footer = (props) => {
                     <h3>Useful Links</h3>
                   </div>
                   <ul>
-                    <li onClick={() => props.handleRef("header")}>
+                    <li onClick={() => props.handleRef("carousel")}>
                       <p>Home</p>
                     </li>
                     {/* <li><a href="#">about</a></li> */}
                     {/* <li><a href="#">services</a></li> */}
-                    <li onClick={() => props.handleRef("carousel")}>
+                    <li onClick={() => props.handleRef("designs")}>
                       <p>portfolio</p>
                     </li>
                     {/* <li><a href="#">Contact</a></li> */}
