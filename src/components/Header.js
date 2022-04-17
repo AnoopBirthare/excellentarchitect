@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/logo123.PNG";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container>
@@ -10,18 +10,24 @@ const Header = () => {
      style={{height:75,width:200,marginRight:-125}}
       src={Logo}
     /> */}
-        <Navbar.Brand style={{}} href="#home">
+
+        <Navbar.Brand style={{}} onClick={() => props.handleRef("carousel")}>
           Excellent Designs
         </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
             className="me-auto"
             style={{ justifyContent: "center", alignItems: "center" }}
           >
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+            <Nav.Link onClick={() => props.handleRef("details")}>
+              Features
+            </Nav.Link>
+            <Nav.Link onClick={() => props.handleRef("designs")}>
+              Portfolio
+            </Nav.Link>
+            <NavDropdown title="Sevices" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -34,8 +40,8 @@ const Header = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">About</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link onClick={() => props.handleRef("teams")}>About</Nav.Link>
+            <Nav.Link eventKey={2} onClick={() => props.handleRef("footer")}>
               Contact US
             </Nav.Link>
           </Nav>
