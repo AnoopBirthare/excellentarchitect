@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
+import Logo from "../assets/blackLogo.PNG";
 
 const Footer = (props) => {
   return (
@@ -62,14 +63,17 @@ const Footer = (props) => {
                 <div class="footer-widget">
                   <div class="footer-logo">
                     <a href="index.html">
-                      <img src="" class="img-fluid" alt="logo" />
+                      <img
+                        src={Logo}
+                        class="img-fluid"
+                        style={{ width: 400, height: 180 }}
+                        alt="logo"
+                      />
                     </a>
                   </div>
                   <div class="footer-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
-                      sed do eiusmod tempor incididuntut consec tetur
-                      adipisicing elit,Lorem ipsum dolor sit amet.
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
                     </p>
                   </div>
                   <div class="footer-social-icon">

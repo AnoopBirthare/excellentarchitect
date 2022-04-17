@@ -1,15 +1,12 @@
 import React from "react";
-import Logo from "../assets/logo123.PNG";
+import Logo from "../assets/edLogo.png";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
 const Header = (props) => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container>
-        {/* <img
-     style={{height:75,width:200,marginRight:-125}}
-      src={Logo}
-    /> */}
+        <img style={{ height: 50, width: 50 }} src={Logo} />
 
         <Navbar.Brand style={{}} onClick={() => props.handleRef("carousel")}>
           Excellent Designs
