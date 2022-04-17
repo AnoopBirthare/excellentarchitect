@@ -14,7 +14,12 @@ const Card = (props) => (
 const CardContainer = (props) => (
   <div className="cards-container">
     {props.cards.map((card) => (
-      <Card title={card.title} content={card.content} imgUrl={card.imgUrl} />
+      <Card
+        key={card.id}
+        title={card.title}
+        content={card.content}
+        imgUrl={card.imgUrl}
+      />
     ))}
   </div>
 );

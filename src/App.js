@@ -17,7 +17,6 @@ const App = () => {
     const teamsRef = document.getElementById("teams");
     const footerRef = document.getElementById("footer");
 
-    console.log(headerRef);
     if (toscroll == "header") headerRef.scrollIntoView({ behavior: "smooth" });
     if (toscroll == "carousel") carouselRef.scrollIntoView();
     if (toscroll == "designs") designsRef.scrollIntoView();
