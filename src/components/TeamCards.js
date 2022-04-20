@@ -2,7 +2,7 @@ import React from "react";
 import "./TeamCards.css";
 import "./Footer.css";
 
-const TeamCards = () => {
+const TeamCards = (props) => {
   const TeamMembers = [
     {
       image:
@@ -19,18 +19,18 @@ const TeamCards = () => {
     {
       image:
         "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
-      name: "Parth",
+      name: "Anoop",
       designation: "Team Leader",
     },
     {
       image:
         "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
-      name: "Parth",
+      name: "Rohit",
       designation: "Team Leader",
     },
   ];
   return (
-    <>
+    <div id="teams">
       <section class="speakers-section-three">
         <div class="container">
           <div class="sec-title text-center">
@@ -40,7 +40,10 @@ const TeamCards = () => {
           <div class="row">
             {TeamMembers.map((member) => {
               return (
-                <div class="speaker-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                <div
+                  class="speaker-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp"
+                  key={member.name}
+                >
                   <div class="inner-box">
                     <div class="image-box">
                       <figure class="image">
@@ -86,7 +89,7 @@ const TeamCards = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
