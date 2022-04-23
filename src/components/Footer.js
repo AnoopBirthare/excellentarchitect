@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import Logo from "../assets/blackLogo.PNG";
+import Logo from "../assets/5.svg";
 
 const Footer = (props) => {
   return (
@@ -17,12 +17,20 @@ const Footer = (props) => {
                     alt="Location"
                     height="50px"
                     width="50px"
-                    style={{ marginTop: -25 }}
+                    style={{ marginTop: -50 }}
                   />
-                  <div class="cta-text">
-                    <h4>Find us</h4>
-                    <span>Excellent Architect, Indore</span>
-                  </div>
+                  <a
+                    href="https://goo.gl/maps/rLv7LZE6ybq2GEer8"
+                    target="_blank"
+                  >
+                    <div class="cta-text">
+                      <h4>Find us</h4>
+                      <span>
+                        Excellent Designs,71 Rajswagram ,<br></br> Chhatri Baag,
+                        Indore (M.P)
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div class="col-xl-4 col-md-4 mb-30">
@@ -36,7 +44,7 @@ const Footer = (props) => {
                   />
                   <div class="cta-text">
                     <h4>Call us</h4>
-                    <span>+91-000000000</span>
+                    <span>+91-6265760118</span>
                   </div>
                 </div>
               </div>
@@ -51,7 +59,7 @@ const Footer = (props) => {
                   />
                   <div class="cta-text">
                     <h4>Mail us</h4>
-                    <span>excellentarch@gmail.com</span>
+                    <span>info.excellentdesigns@gmail.com</span>
                   </div>
                 </div>
               </div>
@@ -65,23 +73,31 @@ const Footer = (props) => {
                     <a href="index.html">
                       <img
                         src={Logo}
-                        class="img-fluid"
-                        style={{ width: 400, height: 180 }}
+                        // class="img-fluid"
+                        style={{
+                          width: "80%",
+                          height: "100%",
+                          marginBottom: -120,
+                          marginTop: -100,
+                        }}
                         alt="logo"
                       />
                     </a>
                   </div>
-                  <div class="footer-text">
+                  {/* <div class="footer-text">
                     <p>
                       Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
                     </p>
-                  </div>
+                  </div> */}
                   <div class="footer-social-icon">
                     <span>Follow us</span>
                     <a href="#">
                       <i class="icons8-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a
+                      href="https://www.instagram.com/excellent_designs1715/"
+                      target="_blank"
+                    >
                       <i class="icons8-instagram"></i>
                     </a>
                     <a href="#">
@@ -90,7 +106,7 @@ const Footer = (props) => {
                     <a href="#">
                       <i class="icons8-linkedin-circled"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://wa.me/916265760118" target="_blank">
                       <i class="icons8-whatsapp"></i>
                     </a>
                   </div>
@@ -155,6 +171,10 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d230.02914096377393!2d75.8513921077174!3d22.71090504213655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1650732807027!5m2!1sen!2sin"
+          style={{ height: 200, width: "90%" }}
+        ></iframe>
         <div class="copyright-area">
           <div class="container">
             <div class="row">

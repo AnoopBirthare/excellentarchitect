@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+
 import "./App.css";
 import CarouselComp from "./components/Carousle";
 import Header from "./components/Header";
