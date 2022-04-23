@@ -1,15 +1,22 @@
 import React from "react";
-import Logo from "../assets/edLogo.png";
+import Logo from "../assets/6.svg";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
 const Header = (props) => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Container>
-        <img style={{ height: 50, width: 50 }} src={Logo} />
-
         <Navbar.Brand style={{}} onClick={() => props.handleRef("carousel")}>
-          Excellent Designs
+          <img
+            style={{
+              height: 150,
+              width: 150,
+              marginTop: -40,
+              marginBottom: -50,
+            }}
+            src={Logo}
+          />
+          {/* Excellent Designs */}
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
