@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/6.svg";
+import Logo from "../assets/8.svg";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
 const Header = (props) => {
@@ -16,7 +16,11 @@ const Header = (props) => {
             }}
             src={Logo}
           />
-          {/* Excellent Designs */}
+          <span
+            style={{ color: "#c6ab59", marginLeft: -25, fontWeight: "bold" }}
+          >
+            Excellent Designs
+          </span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
