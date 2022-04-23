@@ -148,7 +148,8 @@ img {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    content: ""
+    content: "";
+
 }
 
 .speaker-block-three .image-box .image {
