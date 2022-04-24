@@ -11,9 +11,8 @@ const DetailsCards = () => {
               <span>Why Choose</span> Us?
             </h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and type setting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown book.
+              When It Comes About getting Your Dream house to be get Build, Why Would You choose Us? 
+              Here The reasons ARE!!
             </p>
           </div>
           <div class="col-lg-4 col-sm-6">
