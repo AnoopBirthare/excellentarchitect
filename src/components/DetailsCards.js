@@ -29,8 +29,7 @@ const DetailsCards = () => {
               </span>
               <h6>Modern Design</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor Aenean massa.
+                We design your imagination with perfect blend of modern and latest designs where considering your choice is our priority!
               </p>
             </div>
           </div>
@@ -48,8 +47,7 @@ const DetailsCards = () => {
               </span>
               <h6>Creative Design</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor Aenean massa.
+                We have special Team  of  Specialised architects, civil engineers, interior designers who want client satisfaction only and their main aim is to bring always a new creativity in each and every project. 
               </p>
             </div>
           </div>
@@ -67,9 +65,7 @@ const DetailsCards = () => {
               </span>
               <h6>100% Customised Design</h6>
               <p>
-                We also design award-winning custom house plans. Architect's
-                Team has been designing homes for clients' all over the world
-                for nearly 5 years.
+                We also design award-winning custom house plans. Architect's Team has been designing homes for clients'since for nearly 5 years.
               </p>
             </div>
           </div>
@@ -97,26 +93,6 @@ const DetailsCards = () => {
               {" "}
               <span class="icon feature_box_col_two">
                 <img
-                  src="https://img.icons8.com/color/48/000000/price-comparison.png"
-                  alt="Location"
-                  height="50px"
-                  width="50px"
-                  style={{ marginTop: -25 }}
-                />
-              </span>
-              <h6>Cost Saving</h6>
-              <p>
-                Tested ,Quality, value engineered house plans utilizing a grid
-                system layout provide affordable, cost-effective construction
-                and use building materials with proper grading.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              {" "}
-              <span class="icon feature_box_col_two">
-                <img
                   src="https://img.icons8.com/color/48/000000/hourglass-sand-bottom--v1.png"
                   alt="Location"
                   height="50px"
@@ -130,6 +106,26 @@ const DetailsCards = () => {
                 designing process is also required less time to look into a
                 proper designs that can be provide comfort, satisfaction, and
                 living standard.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="item">
+              {" "}
+              <span class="icon feature_box_col_two">
+                <img
+                  src="https://img.icons8.com/color/48/000000/price-comparison.png"
+                  alt="Location"
+                  height="50px"
+                  width="50px"
+                  style={{ marginTop: -25 }}
+                />
+              </span>
+              <h6>Cost Saving</h6>
+              <p>
+                Tested ,Quality, value engineered house plans utilizing a grid
+                system layout provide affordable, cost-effective construction
+                and use building materials with proper grading.
               </p>
             </div>
           </div>
