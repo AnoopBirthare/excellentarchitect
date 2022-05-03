@@ -1,15 +1,15 @@
 import React from "react";
 import "./ElevationDesigns.css";
-import Caro1 from "../assets/Caro1.png";
-import Caro2 from "../assets/Caro2.png";
-import Caro3 from "../assets/Caro3.png";
-import Caro4 from "../assets/Caro4.png";
-import Caro5 from "../assets/Caro5.png";
-import Caro6 from "../assets/Caro6.png";
-import Caro7 from "../assets/Caro7.png";
-import Caro8 from "../assets/Caro8.png";
-import Caro9 from "../assets/Caro9.png";
-import Caro10 from "../assets/Caro10.png";
+import Caro1 from "../assets/1.png";
+import Caro2 from "../assets/2.png";
+import Caro3 from "../assets/3.png";
+import Caro4 from "../assets/4.png";
+import Caro5 from "../assets/5.png";
+import Caro6 from "../assets/6.png";
+import Caro7 from "../assets/7.png";
+import Caro8 from "../assets/8.png";
+import Caro9 from "../assets/9.png";
+import Caro10 from "../assets/10.png";
 const Card = (props) => {
   console.log("propsss",props)
   return (
@@ -41,61 +41,61 @@ const ElevationDesigns = (props) => {
   const cardsData = [
     {
       id: 1,
-      title: "Elevation 1",
+      title: "Floor Plan 1",
       content: "Client : Sarthak Joshi (9039741075)",
       imgUrl:`${Caro1}`,
     },
     {
       id: 2,
-      title: "Elevation 2",
+      title: "Floor Plan 2",
       content: "Client : Anoop Birthare (8319111896)",
       imgUrl:`${Caro2}`,
     },
     {
       id: 3,
-      title: "Elevation 3",
+      title: "Floor Plan 3",
       content: "Peter Parker",
       imgUrl: `${Caro3}`,
     },
     {
       id: 4,
-      title: "Elevation 4",
+      title: "Floor Plan 4",
       content: "Tony Stark",
       imgUrl: `${Caro4}`,
     },
     {
       id: 5,
-      title: "Elevation 5",
+      title: "Floor Plan 5",
       content: "Reed Richards",
       imgUrl:`${Caro5}`,
     },
     {
       id: 6,
-      title: "Elevation 6",
+      title: "Floor Plan 6",
       content: "Wade Wilson",
       imgUrl:`${Caro6}`,
     },
     {
       id: 7,
-      title: "Elevation 7",
+      title: "Floor Plan 7",
       content: "Peter Quill",
       imgUrl:`${Caro7}`,
     },
     {
       id: 8,
-      title: "Elevation 8",
+      title: "Floor Plan 8",
       content: "Steven Rogers",
       imgUrl: `${Caro8}`,
     },
     {
       id: 9,
-      title: "Elevation 9",
+      title: "Floor Plan 9",
       content: "Bruce Banner",
       imgUrl: `${Caro9}`,
     },
     {
       id: 10,
-      title: "Elevation 10",
+      title: "Floor Plan 10",
       content: "Vincent Strange",
       imgUrl:`${Caro10}`,
     },
