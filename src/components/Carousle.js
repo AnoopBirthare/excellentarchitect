@@ -11,7 +11,7 @@ const CarouselComp = () => {
   return (
     <div id="carousel">
       <Carousel indicators="true" touch="true" fade="true" variant="dark">
-        <Carousel.Item interval={10000000} style={{}}>
+        <Carousel.Item interval={10000} style={{}}>
           <img
             className="d-block w-100"
             src={m1}
@@ -23,7 +23,7 @@ const CarouselComp = () => {
       
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={3000000000}>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={m3}
@@ -35,7 +35,7 @@ const CarouselComp = () => {
             <p>We Design which will make you feel pride to live!</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={300000000}>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={m4}
