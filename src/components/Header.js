@@ -35,7 +35,7 @@ const Header = (props) => {
             <Nav.Link onClick={() => props.handleRef("designs")}>
               Portfolio
             </Nav.Link>
-            <NavDropdown title="Sevices" id="collasible-nav-dropdown">
+            {/* <NavDropdown title="Sevices" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -45,7 +45,7 @@ const Header = (props) => {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav>
             <Nav.Link onClick={() => props.handleRef("teams")}>About</Nav.Link>
