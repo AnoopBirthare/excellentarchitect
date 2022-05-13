@@ -11,20 +11,19 @@ import Caro8 from "../assets/8.png";
 import Caro9 from "../assets/9.png";
 import Caro10 from "../assets/10.png";
 const Card = (props) => {
-  console.log("propsss",props)
+  console.log("propsss", props);
   return (
-  <div className="card">
-    <img src={props.imgUrl} className="img" alt={props.alt || "Image"} />
-    <div className="card-content">
-      <h2>{props.title}</h2>
-      <p>{props.content}</p>
+    <div className="card">
+      <img src={props.imgUrl} className="img" alt={props.alt || "Image"} />
+      <div className="card-content">
+        <h2>{props.title}</h2>
+        <p>{props.content}</p>
+      </div>
     </div>
-  </div>
-);
-}
+  );
+};
 
 const CardContainer = (props) => (
-  
   <div className="cards-container">
     {props.cards.map((card) => (
       <Card
@@ -43,65 +42,65 @@ const ElevationDesigns = (props) => {
       id: 1,
       title: "Floor Plan 1",
       content: "Client : Sarthak Joshi (9039741075)",
-      imgUrl:`${Caro1}`,
+      imgUrl: `${Caro1}`,
     },
     {
       id: 2,
       title: "Floor Plan 2",
       content: "Client : Anoop Birthare (8319111896)",
-      imgUrl:`${Caro2}`,
+      imgUrl: `${Caro2}`,
     },
     {
       id: 3,
       title: "Floor Plan 3",
-      content: "Peter Parker",
+      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro3}`,
     },
     {
       id: 4,
       title: "Floor Plan 4",
-      content: "Tony Stark",
+      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro4}`,
     },
     {
       id: 5,
       title: "Floor Plan 5",
-      content: "Reed Richards",
-      imgUrl:`${Caro5}`,
+      content: "Client : Sarthak Joshi (9039741075)",
+      imgUrl: `${Caro5}`,
     },
     {
       id: 6,
       title: "Floor Plan 6",
-      content: "Wade Wilson",
-      imgUrl:`${Caro6}`,
+      content: "Client : Sarthak Joshi (9039741075)",
+      imgUrl: `${Caro6}`,
     },
     {
       id: 7,
       title: "Floor Plan 7",
-      content: "Peter Quill",
-      imgUrl:`${Caro7}`,
+      content: "Client : Sarthak Joshi (9039741075)",
+      imgUrl: `${Caro7}`,
     },
     {
       id: 8,
       title: "Floor Plan 8",
-      content: "Steven Rogers",
+      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro8}`,
     },
     {
       id: 9,
       title: "Floor Plan 9",
-      content: "Bruce Banner",
+      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro9}`,
     },
     {
       id: 10,
       title: "Floor Plan 10",
-      content: "Vincent Strange",
-      imgUrl:`${Caro10}`,
+      content: "Client : Sarthak Joshi (9039741075)",
+      imgUrl: `${Caro10}`,
     },
   ];
   return (
-    <div id="designs" className="container">
+    <div id="designs" className="container" style={{ marginBottom: 20 }}>
       <CardContainer cards={cardsData} />
     </div>
   );
