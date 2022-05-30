@@ -44,7 +44,7 @@ const Footer = (props) => {
                   />
                   <div class="cta-text">
                     <h4>Call us</h4>
-                    <span>+91-6265760118</span>
+                    <span><a href="tel:+91-6265760118">+91-6265760118</a></span>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Footer = (props) => {
                   />
                   <div class="cta-text">
                     <h4>Mail us</h4>
-                    <span>info.excellentdesigns@gmail.com</span>
+                    <span><a href="mailto:info.excellentdesigns@gmail.com">info.excellentdesigns@gmail.com</a></span> 
                   </div>
                 </div>
               </div>
