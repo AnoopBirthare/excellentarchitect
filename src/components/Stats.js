@@ -13,7 +13,7 @@ const Stats = () => {
   return (
     <>
       <div class="timer count-title count-number" style={{ fontSize: 30 }}>
-        What We Achieve
+        What We <span style={{ fontSize: 40,color: "red" }}> Achieved </span>
       </div>
       <div class="timer count-title count-number" style={{ fontSize: 18 }}>
         Our Values Equity, Diversity , Professionalism, Team and Our Work
@@ -25,7 +25,7 @@ const Stats = () => {
             <div class="col-xs-12 col-md-3">
               <div class="counter">
                 <i class="fa fa-coffee fa-2x stats-icon"></i>
-                <h2 class="timer count-title count-number">999+</h2>
+                <h2 class="timer count-title count-number">1500+</h2>
                 <div class="stats-line-black"></div>
                 <p class="stats-text">Projects Done</p>
               </div>
@@ -41,7 +41,7 @@ const Stats = () => {
             <div class="col-xs-12 col-md-3">
               <div class="counter">
                 <i class="fa fa-clock-o fa-2x stats-icon"></i>
-                <h2 class="timer count-title count-number">800+</h2>
+                <h2 class="timer count-title count-number">700+</h2>
                 <div class="stats-line-black"></div>
                 <p class="stats-text">Residential Project Done</p>
               </div>
@@ -49,7 +49,7 @@ const Stats = () => {
             <div class="col-xs-12 col-md-3">
               <div class="counter">
                 <i class="fa fa-laptop fa-2x stats-icon"></i>
-                <h2 class="timer count-title count-number">100+</h2>
+                <h2 class="timer count-title count-number">500+</h2>
                 <div class="stats-line-black"></div>
                 <p class="stats-text">Commercial Project Done</p>
               </div>
