@@ -11,20 +11,19 @@ import Caro8 from "../assets/8.png";
 import Caro9 from "../assets/9.png";
 import Caro10 from "../assets/10.png";
 const Card = (props) => {
-  console.log("propsss",props)
+  console.log("propsss", props);
   return (
-  <div className="card">
-    <img src={props.imgUrl} className="img" alt={props.alt || "Image"} />
-    <div className="card-content">
-      <h2>{props.title}</h2>
-      <p>{props.content}</p>
+    <div className="card">
+      <img src={props.imgUrl} className="img" alt={props.alt || "Image"} />
+      <div className="card-content">
+        <h2>{props.title}</h2>
+        <p>{props.content}</p>
+      </div>
     </div>
-  </div>
-);
-}
+  );
+};
 
 const CardContainer = (props) => (
-  
   <div className="cards-container">
     {props.cards.map((card) => (
       <Card
@@ -81,7 +80,7 @@ const ElevationDesigns = (props) => {
     },
   ];
   return (
-    <div id="designs" className="container">
+    <div id="designs" className="container" style={{ marginBottom: 20 }}>
       <CardContainer cards={cardsData} />
     </div>
   );

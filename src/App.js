@@ -7,7 +7,8 @@ import Footer from "./components/Footer";
 import DetailsCards from "./components/DetailsCards";
 import TeamCards from "./components/TeamCards";
 import ElevationDesigns from "./components/ElevationDesigns";
-import FloorPlans from "./components/FloorPlans"
+import FloorPlans from "./components/FloorPlans";
+import Stats from "./components/Stats";
 const App = () => {
   const handleRef = (toscroll) => {
     const headerRef = document.getElementById("header");
@@ -39,11 +40,11 @@ const App = () => {
         <Header handleRef={handleRef} />
       </div>
       <div style={{}}>
-        
         <CarouselComp />
         <DetailsCards />
+        <Stats />
         <ElevationDesigns />
-        <FloorPlans/>
+        <FloorPlans />
         <TeamCards />
         <Footer handleRef={handleRef} />
       </div>
