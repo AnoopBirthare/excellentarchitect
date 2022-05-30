@@ -40,63 +40,43 @@ const ElevationDesigns = (props) => {
   const cardsData = [
     {
       id: 1,
-      title: "Floor Plan 1",
-      content: "Client : Sarthak Joshi (9039741075)",
-      imgUrl: `${Caro1}`,
+      imgUrl:`${Caro1}`,
     },
     {
       id: 2,
-      title: "Floor Plan 2",
-      content: "Client : Anoop Birthare (8319111896)",
-      imgUrl: `${Caro2}`,
+      imgUrl:`${Caro2}`,
     },
     {
       id: 3,
-      title: "Floor Plan 3",
-      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro3}`,
     },
     {
       id: 4,
-      title: "Floor Plan 4",
-      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro4}`,
     },
     {
       id: 5,
-      title: "Floor Plan 5",
-      content: "Client : Sarthak Joshi (9039741075)",
-      imgUrl: `${Caro5}`,
+      imgUrl:`${Caro5}`,
     },
     {
       id: 6,
-      title: "Floor Plan 6",
-      content: "Client : Sarthak Joshi (9039741075)",
-      imgUrl: `${Caro6}`,
+      imgUrl:`${Caro6}`,
     },
     {
       id: 7,
-      title: "Floor Plan 7",
-      content: "Client : Sarthak Joshi (9039741075)",
-      imgUrl: `${Caro7}`,
+      imgUrl:`${Caro7}`,
     },
     {
       id: 8,
-      title: "Floor Plan 8",
-      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro8}`,
     },
     {
       id: 9,
-      title: "Floor Plan 9",
-      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl: `${Caro9}`,
     },
     {
       id: 10,
-      title: "Floor Plan 10",
-      content: "Client : Sarthak Joshi (9039741075)",
-      imgUrl: `${Caro10}`,
+      imgUrl:`${Caro10}`,
     },
   ];
   return (

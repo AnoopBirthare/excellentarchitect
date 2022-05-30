@@ -19,11 +19,11 @@ body {
 
 .cards-container {
     display: flex;
-    border-radius: 6px;
-    color: #333;
-    background: #eee;
-    padding: 1rem;
-    box-shadow: 0 0 1rem #000 inset;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgb(53, 48, 48);
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem rgb(180, 179, 179) inset;
     overflow-x: auto;
     position: relative;
 }
@@ -33,29 +33,29 @@ body {
 }
 
 .card {
-    flex: 1 0 250px;
-    box-shadow: 0 1px 1rem -4px #000;
-    background: #fff;
+    flex: 1 0 300px;
+    box-shadow: 0 1px 1rem -4px rgb(26, 4, 126);
+    background: rgb(0, 0, 0);
     margin: 1rem;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: all 250ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .card:hover {
-    box-shadow: 0 4px 1rem -4px #000;
-    transform: translateY(-3px);
+    box-shadow: 0rem 8px 4rem -8px rgba(19, 18, 18, 0);
+    transform: translateY(-6px);
 }
 
 .img {
-    width: 250px;
-    height: 250px;
-    object-fit: center;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .card-content {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 @media screen and (max-width: 625px) {
