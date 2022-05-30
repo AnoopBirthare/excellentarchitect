@@ -41,62 +41,42 @@ const ElevationDesigns = (props) => {
   const cardsData = [
     {
       id: 1,
-      title: "Floor Plan 1",
-      content: "Client : Sarthak Joshi (9039741075)",
       imgUrl:`${Caro1}`,
     },
     {
       id: 2,
-      title: "Floor Plan 2",
-      content: "Client : Anoop Birthare (8319111896)",
       imgUrl:`${Caro2}`,
     },
     {
       id: 3,
-      title: "Floor Plan 3",
-      content: "Peter Parker",
       imgUrl: `${Caro3}`,
     },
     {
       id: 4,
-      title: "Floor Plan 4",
-      content: "Tony Stark",
       imgUrl: `${Caro4}`,
     },
     {
       id: 5,
-      title: "Floor Plan 5",
-      content: "Reed Richards",
       imgUrl:`${Caro5}`,
     },
     {
       id: 6,
-      title: "Floor Plan 6",
-      content: "Wade Wilson",
       imgUrl:`${Caro6}`,
     },
     {
       id: 7,
-      title: "Floor Plan 7",
-      content: "Peter Quill",
       imgUrl:`${Caro7}`,
     },
     {
       id: 8,
-      title: "Floor Plan 8",
-      content: "Steven Rogers",
       imgUrl: `${Caro8}`,
     },
     {
       id: 9,
-      title: "Floor Plan 9",
-      content: "Bruce Banner",
       imgUrl: `${Caro9}`,
     },
     {
       id: 10,
-      title: "Floor Plan 10",
-      content: "Vincent Strange",
       imgUrl:`${Caro10}`,
     },
   ];
