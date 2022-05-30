@@ -44,6 +44,14 @@ const FloorPlans = ()=> {
         <div class="gallery-item">
           <img class="gallery-image" src={Caro6} alt="Your Dream Design is Loading"/>
         </div>
+
+        <div class="gallery-item">
+          <img class="gallery-image" src={Caro7} alt="Your Dream Design is Loading"/>
+        </div>
+      
+        <div class="gallery-item">
+          <img class="gallery-image" src={Caro8} alt="Your Dream Design is Loading"/>
+        </div>
       
       </div>
       
