@@ -7,25 +7,25 @@ const TeamCards = (props) => {
     {
       image:
         "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
-      name: "Parth",
+      name: "Devaang ray",
       designation: "Team Manager",
     },
     {
       image:
         "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
-      name: "Aditya",
+      name: "Aayush ujjani",
       designation: "Associate",
     },
     {
       image:
         "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
-      name: "Anoop",
+      name: "Anoop birthare",
       designation: "Team Leader",
     },
     {
       image:
         "https://img.icons8.com/color/500/000000/circled-user-male-skin-type-4--v1.png",
-      name: "Rohit",
+      name: "Rohit rajput",
       designation: "Team Leader",
     },
   ];
