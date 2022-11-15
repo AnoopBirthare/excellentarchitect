@@ -39,15 +39,7 @@ const App = () => {
       >
         {/* <Header handleRef={handleRef} /> */}
       </div>
-      // <div style={{}}>
-      //   <CarouselComp />
-      //   <DetailsCards />
-      //   <Stats />
-      //   <ElevationDesigns />
-      //   <FloorPlans />
-      //   <TeamCards />
-      //   <Footer handleRef={handleRef} />
-      // </div>
+      
     </div>
   );
 };
