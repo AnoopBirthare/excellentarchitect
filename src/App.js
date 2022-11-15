@@ -37,18 +37,9 @@ const App = () => {
           backgroundColor: "rgba(65, 79, 91,.90)",
         }}
       >
-        Temperory Not Avaialble
         {/* <Header handleRef={handleRef} /> */}
       </div>
-      // <div style={{}}>
-      //   <CarouselComp />
-      //   <DetailsCards />
-      //   <Stats />
-      //   <ElevationDesigns />
-      //   <FloorPlans />
-      //   <TeamCards />
-      //   <Footer handleRef={handleRef} />
-      // </div>
+      
     </div>
   );
 };
